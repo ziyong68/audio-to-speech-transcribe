@@ -1,0 +1,8 @@
+output/
+.ipynb_checkpoints/
+CYD_LLM_API_test.ipynb
+CYD_LLM_local_test.ipynb
+*.mp3
+*.m4a
+*.mp4
+*.wav
