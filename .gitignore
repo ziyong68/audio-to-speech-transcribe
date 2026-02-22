@@ -6,3 +6,4 @@ CYD_LLM_local_test.ipynb
 *.m4a
 *.mp4
 *.wav
+yt_dlp_command_template.txt
