@@ -7,7 +7,9 @@ This project relies on a dedicated Whisper transcription environment. Environmen
 To install the conda env of whisper_env, do one of the following:  
 
 Windows user, run: ```conda env create -f whisper_env_win.yml```  
-macOS user, run: ```conda env create -f whisper_env_win.yml```  
+macOS user, run: ```conda env create -f whisper_env.yml```  
+
+Windows GPU user, run: ```conda env create -f whisper_env_win_gpu.yaml```
 
 After creation:  
 ```conda activate whisper_env```  
