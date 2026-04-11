@@ -1,0 +1,24 @@
+dharma-archive/
+├── dharma_archive.ipynb        ← notebook
+├── dharma_pipeline_v2.py       ← pipeline script
+├── whisper_env_gpu.yml         ← conda environment
+├── .gitignore
+├── README.md
+│
+├── data/
+│   ├── raw/                    ← original ripped audio (FLAC masters)
+│   │   ├── TSOKNYI-001/
+│   │   │   ├── track01.flac
+│   │   │   └── track02.flac
+│   │   └── CHOGYAM-047/
+│   ├── processed/              ← compressed 16kHz MP3s (pipeline output)
+│   └── exports/                ← JSONL exports for RAG/fine-tuning
+│
+├── db/
+│   └── dharma_archive.db       ← SQLite database
+│
+├── logs/
+│   └── pipeline.log
+│
+└── notebooks/
+    └── exploration.ipynb       ← scratch/exploratory notebooks
